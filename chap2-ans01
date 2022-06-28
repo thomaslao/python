@@ -1,0 +1,6 @@
+print("請輸入日期(YYYY-MM-DD)")
+year=input()
+month=input()
+date=input()
+print("日期:",year,"-",month,"-",date)
+print("日期:"+year+"-"+month+"-"+date)
