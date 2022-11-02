@@ -1,7 +1,6 @@
-﻿import urllib.request
+import urllib.request
 #將想要開啟網址指定給字串變數
-addr = 'http://www.puiching.edu.mo/'
-#以with/as敘述來取得網址，離開之後會自動釋放資源
+addr = "http://www.puiching.edu.mo/"
 with urllib.request.urlopen(addr) as response:
     print('網頁網址',response.geturl())
     print('網頁表頭',response.getheaders())
